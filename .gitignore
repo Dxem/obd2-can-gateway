@@ -1,0 +1,19 @@
+# Build
+build/
+firmware/build/
+out/
+
+# IDE / lokalne
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+.settings/
+*.launch
+
+# Lokalna dokumentacja producentów (linki w docs/datasheets.md)
+docs/datasheets/
+
+# System
+Thumbs.db
+.DS_Store
