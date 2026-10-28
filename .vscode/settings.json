@@ -1,3 +1,10 @@
 {
-    "cmake.sourceDirectory": "E:/PROJEKTY/obd2-can-gateway/firmware"
+    "cmake.sourceDirectory": "${workspaceFolder}/firmware",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/firmware/build/Debug",
+        "--query-driver=**/arm-none-eabi-gcc*",
+        "--header-insertion=never",
+        "--background-index"
+    ]
 }
