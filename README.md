@@ -135,7 +135,7 @@ The gateway will speak the **SLCAN** protocol, so it works with existing tools:
 
 ## Roadmap
 
-- [ ] **v0.1**: repository skeleton, CI, blinky and `printf` over VCP
+- [✓] **v0.1**: repository skeleton, CI, blinky and `printf` over VCP
 - [ ] **v0.2**: bxCAN in loopback mode, filters, RX interrupt
 - [ ] **v0.3**: SLCAN module with tests, traffic visible in SavvyCAN
 - [ ] **v0.4**: listening to the car's bus (Silent mode, 500 kbit/s)
